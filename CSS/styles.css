@@ -149,9 +149,7 @@ ul {
     url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  width: 1440px;
-  height: 600px;
+  background-size: 1440px 600px;
 }
 .one-title {
   font-weight: 700;
@@ -227,6 +225,7 @@ ul {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  border-radius: 4px;
 }
 .section-two-icon {
   display: flex;
@@ -241,7 +240,7 @@ ul {
 }
 .title-h {
   margin-bottom: 8px;
-  /* margin-top: 32px; */
+  margin-top: 8px;
   line-height: 1.2;
   font-style: 20px;
   font-weight: 500;
@@ -509,6 +508,14 @@ img {
   text-decoration: none;
   list-style-type: none;
 }
+.portfolio-img:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-img:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .img-portf {
   /* padding-bottom: 32px; */
 }
@@ -521,15 +528,12 @@ img {
 .products-item {
   width: calc((100% - 48px) / 3);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-  border-radius: 1px solid var(--cinderella);
 }
 .products-item:hover {
-  border: 0.5px solid var(--milk-white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .products-item:focus {
-  border: 0.5px solid var(--milk-white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -539,10 +543,10 @@ img {
   border-top: none;
   border-color: var(--cinderella);
   padding: 0px 16px;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 .text-product {
-  padding-bottom: 32px;
 }
 .h-product {
-  padding-top: 32px;
 }
