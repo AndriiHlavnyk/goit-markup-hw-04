@@ -139,6 +139,8 @@ ul {
 }
 /* ========================section-one */
 .section-one {
+  min-height: 600px;
+  max-width: 1440px;
   background-color: var(--h-title);
   padding-bottom: 188px;
   padding-top: 188px;
@@ -149,7 +151,7 @@ ul {
     url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px 600px;
+  background-size: cover;
 }
 .one-title {
   font-weight: 700;
@@ -509,6 +511,7 @@ img {
   list-style-type: none;
 }
 .portfolio-img:hover {
+  display: block;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -529,14 +532,14 @@ img {
   width: calc((100% - 48px) / 3);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.products-item:hover {
+/* .products-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .products-item:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
+
 .products-list {
   border: 1px;
   border-style: solid;
